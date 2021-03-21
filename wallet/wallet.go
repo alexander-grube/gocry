@@ -32,7 +32,7 @@ func (w Wallet) Address() []byte {
 
 	fmt.Printf("pub key: %x\n", w.PublicKey)
 	fmt.Printf("pub hash: %x\n", pubHash)
-	fmt.Printf("address: %x\n", address)
+	fmt.Printf("address: %s\n", address)
 
 	return address
 }

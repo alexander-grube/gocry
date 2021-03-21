@@ -8,9 +8,7 @@ import (
 
 func Base58Encode(input []byte) []byte {
 	encode := base58.Encode(input)
-
 	// https://youtu.be/O9rDas-0s2c?t=758
-	// []byte doesnt give correct value back
 	return []byte(encode)
 }
 
